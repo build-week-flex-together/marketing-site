@@ -1,0 +1,302 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Overpass', sans-serif;
+  color: #001d48;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Overpass', sans-serif;
+}
+h1 {
+  font-size: 5.5rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+  color: #001d48;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  color: #001d48;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.main-navigation {
+  width: 100%;
+  max-width: 940px;
+  height: 90px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+.main-navigation a {
+  color: #001d48;
+  text-decoration: none;
+}
+.main-navigation .flex-together-index {
+  font-size: 3.6rem;
+}
+.main-navigation .nav-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 3rem;
+}
+.main-navigation .flex-together-index {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.main-navigation .nav {
+  width: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-navigation .nav a {
+  font-size: 2rem;
+}
+.main-navigation .nav button {
+  width: 8rem;
+  height: 3.7rem;
+  border-radius: 1rem;
+  background-color: #001d48;
+  color: white;
+  border: 0;
+  font-size: 1.6rem;
+}
+.container-home .top-section .intro {
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65.1rem;
+}
+.container-home .top-section .intro .intro-section {
+  width: 47rem;
+  margin-left: 10%;
+  font-weight: 700;
+  line-height: 6rem;
+  z-index: 11;
+}
+.container-home .top-section .intro .intro-section .made-social {
+  color: #009cd2;
+}
+.container-home .top-section .intro .intro-section p {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 20;
+}
+.container-home .top-section .intro .intro-section a {
+  display: inline-block;
+  font-size: 2.2rem;
+  color: #009cd2;
+  width: 24rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: transparent;
+  border: 0.5rem solid #009cd2;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition-duration: 0.3s;
+}
+.container-home .top-section .intro .intro-section a:hover {
+  color: white;
+  font-size: 2.3rem;
+  background-color: #009cd2;
+}
+.container-home .top-section .intro img {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+}
+.container-home .content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-home .content-section .content {
+  display: flex;
+  margin: 0 3rem ;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-home .content-section .first {
+  flex-direction: row-reverse;
+  margin-top: 10rem;
+}
+.container-home .content-section .second img {
+  width: 45%;
+  height: 75%;
+}
+.container-home .content-section .content-text {
+  width: 60%;
+  padding: 3rem 6rem;
+}
+.container-home .content-section h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.11ch;
+}
+.container-home .content-section p {
+  font-size: 2.2rem;
+}
+.container-home .content-section .third {
+  flex-direction: row-reverse;
+  margin: 0;
+}
+.container-home .content-section .third img {
+  width: 45%;
+  height: 75%;
+}

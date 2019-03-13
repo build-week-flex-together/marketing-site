@@ -1,0 +1,107 @@
+.container-home {
+    .top-section{
+        .intro{
+            background-color: rgb(227, 227, 227);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 65.1rem;
+
+            .intro-section{
+                width: 47rem;
+                margin-left: 10%;
+                font-weight: 700;
+                line-height: 6rem;
+                z-index: 11;
+
+                .made-social{
+                    color: @light-blue;
+                }
+                p {
+                    margin-top: 1rem;
+                    font-size: 2rem;
+                    font-weight: 20;
+                }
+                a {
+                    display: inline-block;
+                    font-size: 2.2rem;
+                    color: @light-blue;
+                    width: 24rem;
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
+                    background-color: transparent;
+                    border: .5rem solid @light-blue;
+                    text-decoration: none;
+                    cursor: pointer;
+                    border-radius: 15px; 
+                    transition-duration: .3s;
+                    &:hover {
+                        color: white;
+                        font-size: 2.3rem;
+                        background-color: @light-blue;
+
+                    }
+                }
+            }
+
+            img {
+                position: absolute;
+                z-index: 10;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+    .content-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+
+        .content{
+            display: flex;
+            margin: 0 3rem ;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .first {
+            flex-direction: row-reverse;
+            margin-top: 10rem;
+        }
+
+        .second {
+            img {
+                width: 45%;
+                height: 75%;
+            }
+        }
+        .content-text{
+            width: 60%;
+            padding: 3rem 6rem;
+
+        }
+        
+        h2 {
+            font-size: 4rem;
+            font-weight: 600;
+            letter-spacing: .11ch;
+        }
+
+        p{
+            font-size: 2.2rem;
+        }
+
+        .third {
+            flex-direction: row-reverse;
+            margin: 0;
+            img {
+                width: 45%;
+                height: 75%;
+            }
+        }
+        
+
+    }
+}
