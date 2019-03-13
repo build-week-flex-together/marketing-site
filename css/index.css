@@ -135,6 +135,7 @@ html {
 html,
 body {
   font-family: 'Overpass', sans-serif;
+  color: #001d48;
 }
 h1,
 h2,
@@ -149,6 +150,7 @@ h1 {
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
+  color: #001d48;
 }
 h4 {
   font-size: 2.5rem;
@@ -158,6 +160,7 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+  color: #001d48;
 }
 img {
   max-width: 100%;
@@ -175,7 +178,6 @@ img {
   z-index: 20;
 }
 .main-navigation a {
-  font-size: 1.6rem;
   color: #001d48;
   text-decoration: none;
 }
@@ -190,7 +192,7 @@ img {
   padding: 0 0 0 3rem;
 }
 .main-navigation .flex-together-index {
-  font-size: 2.3rem;
+  font-size: 3.2rem;
   font-weight: 600;
 }
 .main-navigation .nav {
@@ -200,8 +202,7 @@ img {
   align-items: center;
 }
 .main-navigation .nav a {
-  font-size: 1.8rem;
-  padding: auto;
+  font-size: 2rem;
 }
 .main-navigation .nav button {
   width: 8rem;
@@ -259,4 +260,43 @@ img {
   z-index: 10;
   right: 0;
   top: 0;
+}
+.container-home .content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-home .content-section .content {
+  display: flex;
+  margin: 0 3rem ;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-home .content-section .first {
+  flex-direction: row-reverse;
+  margin-top: 10rem;
+}
+.container-home .content-section .second img {
+  width: 45%;
+  height: 75%;
+}
+.container-home .content-section .content-text {
+  width: 60%;
+  padding: 3rem 6rem;
+}
+.container-home .content-section h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.11ch;
+}
+.container-home .content-section p {
+  font-size: 2.2rem;
+}
+.container-home .content-section .third {
+  flex-direction: row-reverse;
+  margin: 0;
+}
+.container-home .content-section .third img {
+  width: 45%;
+  height: 75%;
 }
