@@ -209,7 +209,7 @@ img {
 .main-navigation .nav a {
   font-size: 2rem;
 }
-.main-navigation .nav button {
+.main-navigation .nav .button {
   width: 8rem;
   height: 3.7rem;
   border-radius: 1rem;
@@ -217,6 +217,8 @@ img {
   color: white;
   border: 0;
   font-size: 1.6rem;
+  text-align: center;
+  line-height: 3.7rem;
 }
 .main-navigation .menu-icon {
   padding: 0 1.5rem;
@@ -234,8 +236,8 @@ img {
   height: 0.5rem;
   background-color: #333;
   margin: 0.5rem 0;
-  transition: 0.4s;
-  border-radius: 3px;
+  transition: 0.5s;
+  border-radius: 60px;
 }
 .main-navigation .change .menu-bar-1 {
   -webkit-transform: rotate(-45deg) translate(-0.7rem, 0.5rem);
@@ -415,7 +417,6 @@ img {
 }
 @media (max-width: 880px) {
   .container-home .content-section .fourth {
-    height: auto;
     padding: 3rem 0 0;
     flex-direction: column-reverse;
   }
@@ -512,6 +513,54 @@ img {
   flex-direction: column;
   width: 100%;
   padding: 3rem 0 0;
+}
+.container-about .about-content-section .tabs .tabs-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container-about .about-content-section .tabs .tabs-item {
+  display: none;
+}
+.container-about .about-content-section .tabs .tabs-item .tabs-item-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.container-about .about-content-section .tabs .tabs-item-selected {
+  display: block;
+}
+.container-about .about-content-section .tabs .tabs-links {
+  display: flex;
+  justify-content: center;
+  background-color: #001d48;
+}
+.container-about .about-content-section .tabs .tabs-link {
+  padding: 24px 0;
+  font-size: 24px;
+  background-color: #001d48;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  color: #FFFFFF;
+  width: 15rem;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.container-about .about-content-section .tabs .tabs-link:hover {
+  background-color: #003687;
+}
+.container-about .about-content-section .tabs .tabs-link-selected {
+  z-index: 2;
+  padding: 20px 0;
+  border: 1px solid #001d48;
+  background-color: white;
+  font-size: 29px;
+  color: #001d48;
+  transition-duration: 0.5s;
+}
+.container-about .about-content-section .tabs .tabs-link-selected:hover {
+  background-color: white;
 }
 .container-about .about-content-section .person {
   padding: 3rem 0;
